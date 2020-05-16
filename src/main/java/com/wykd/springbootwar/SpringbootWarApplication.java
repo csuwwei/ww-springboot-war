@@ -20,5 +20,10 @@ public class SpringbootWarApplication {
     }
 
 
+    @GetMapping("/helloworld")
+    public String helloworld() {
+        return "hello world helloworld helloworld helloworld";
+    }
+
 
 }
